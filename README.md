@@ -41,8 +41,8 @@ Squoosh is an open-source project that appreciates all community involvement. To
 
 ```sh
 # build and run
-docker build -t squoosh-app .
-docker run -p 5001:5001 squoosh-app
+docker build -t squoosh-cn .
+docker run -p 3000:3000 squoosh-cn
 ```
 
 # docker-compose

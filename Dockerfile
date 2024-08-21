@@ -19,14 +19,14 @@ RUN npm install
 # 复制项目文件到工作目录
 COPY . .
 
-# 暴露应用运行的端口（假设应用运行在端口5001）
-EXPOSE 5001
+# 暴露应用运行的端口（假设应用运行在端口3000）
+EXPOSE 3000
 
 # 构建项目
 RUN npm run build
 
 # 设置环境变量
-ENV DEV_PORT=5001
+ENV DEV_PORT=3000
 
 # 设置容器启动时运行的命令
 CMD ["npm", "run", "serve"]

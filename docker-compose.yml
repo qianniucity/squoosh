@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   squoosh:
-    container_name: squoosh
+    container_name: squoosh-cn
     image: squoosh
     build:
       context: .
@@ -10,4 +10,4 @@ services:
     environment:
       NODE_ENV: production
     ports:
-      - 5001:5001
+      - 3005:3000
