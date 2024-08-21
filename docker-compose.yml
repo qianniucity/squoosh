@@ -2,6 +2,7 @@ version: '3.4'
 
 services:
   squoosh:
+    container_name: squoosh
     image: squoosh
     build:
       context: .
